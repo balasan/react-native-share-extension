@@ -1,5 +1,5 @@
 #import "ReactNativeShareExtension.h"
-#import <RCTRootView.h>
+#import <React/RCTRootView.h>
 #import <MobileCoreServices/MobileCoreServices.h>
 
 
