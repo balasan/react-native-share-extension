@@ -13,6 +13,11 @@ NSExtensionContext* extensionContext;
   NSString* value;
 }
 
++ (BOOL)requiresMainQueueSetup
+{
+    return YES;
+}
+
 - (UIView*) shareView {
   return nil;
 }
